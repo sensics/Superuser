@@ -3,6 +3,8 @@
 
 my_path := $(call my-dir)
 
+include $(my_path)/Superuser/Android.mk
+
 LOCAL_PATH := $(my_path)
 include $(CLEAR_VARS)
 
